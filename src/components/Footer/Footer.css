@@ -1,0 +1,53 @@
+/* Footer.css */
+
+.footer {
+  background-color: #2C3E50; /* Koyu lacivert arka plan rengi */
+  color: #FFFFFF; /* Beyaz metin rengi */
+  padding: 20px 0; /* Üst ve alt boşluk */
+  text-align: center; /* Tüm metni ortala */
+  position: relative; /* Footer'ı sayfanın en altında tut */
+  bottom: 0;
+  width: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Sosyal medya ikonlarını ortala */
+  margin-bottom: 10px; /* Alt metne boşluk ekle */
+}
+
+.social-icons a {
+  margin: 0 15px; /* Sosyal medya ikonları arasında boşluk */
+  display: inline-block; /* İkonları yan yana sırala */
+}
+
+.social-icons img {
+  width: 30px; /* Sosyal medya ikonlarının genişliği */
+  height: 30px; /* Sosyal medya ikonlarının yüksekliği */
+  transition: transform 0.3s ease-in-out; /* Hover efekti için geçiş */
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1); /* İkonu büyüt */
+}
+
+.policy-links {
+  margin: 10px 0; /* Üst ve alttan boşluk ekle */
+}
+
+.policy-links a {
+  color: #f8f9fa; /* Bağlantı rengi */
+  text-decoration: none; /* Alt çizgiyi kaldır */
+  margin: 0 10px; /* Bağlantılar arası boşluk */
+  transition: color 0.3s ease-in-out; /* Renk değişim animasyonu */
+}
+
+.policy-links a:hover {
+  color: #bdc3c7; /* Bağlantı hover rengi */
+}
+
+.footer p {
+  font-size: 14px; /* Metin boyutu */
+  margin-top: 10px; /* Üst boşluk */
+}
+

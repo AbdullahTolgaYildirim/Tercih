@@ -1,0 +1,52 @@
+.containerUniversiteler {
+  display: flex;
+  flex-wrap: wrap; /* Yan yana gelen divlerin sıralanmasını sağlar */
+}
+
+.AntalyaUniversiteler {
+  text-align: center;
+  width: 200px; /* Her bir div'in genişliği */
+  margin: 10px; /* Aralarındaki boşluk */
+  background-color: #e0e0e0; /* Açık gri arka plan */
+  padding: 15px; /* İç boşluk */
+  border-radius: 8px; /* Kenar yuvarlaklığı */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.12); /* Hafif gölgelendirme */
+}
+
+.toggleButton {
+  background-color: #ff6347; /* Parlak turuncu arka plan */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+.toggleButton:hover {
+  background-color: #cc4c33; /* Daha koyu turuncu hover etkisi */
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa; /* Çok hafif gri arka plan */
+  padding: 20px; /* İç boşluk */
+  border-radius: 8px; /* Kenar yuvarlaklığı */
+}
+
+.linksContainer a {
+  margin: 5px 0;
+  text-decoration: none;
+  color: #ff6347; /* Parlak turuncu metin rengi */
+  transition: color 0.3s ease;
+}
+
+.linksContainer a:hover {
+  color: #cc4c33; /* Koyu turuncu hover etkisi */
+}

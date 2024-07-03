@@ -1,0 +1,55 @@
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.login-container h1 {
+    text-align: center;
+}
+
+.login-container form div {
+    margin-bottom: 15px;
+}
+
+.login-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-container form input[type="text"],
+.login-container form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+}
+
+.login-container form .actions {
+    text-align: center;
+}
+
+.login-container form .actions button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.login-container form .actions button:hover {
+    background-color: #0056b3;
+}
+
+.login-container form .actions a {
+    text-decoration: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.login-container form .actions a:hover {
+    text-decoration: underline;
+}

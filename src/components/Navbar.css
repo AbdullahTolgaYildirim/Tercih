@@ -1,0 +1,25 @@
+.NavbarContainer {
+  background-color: #2C3E50; 
+}
+
+.navbarItem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0; /* Boşluk ekleyin */
+}
+
+.navbarItem a {
+  text-decoration: none;
+  color: #fff; /* Beyaz metin rengi */
+  transition: color 0.3s ease; /* Geçiş efekti */
+}
+
+.navbarItem a:hover {
+  color: #ffb6c1; /* Toz pembe renk */
+  background-color: #363636; /* Arka plan rengi */
+}
+.logo{
+  max-width: 120px;
+  max-height: 120px;
+}

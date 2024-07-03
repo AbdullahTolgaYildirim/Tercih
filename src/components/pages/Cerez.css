@@ -1,0 +1,45 @@
+.cookie-policy-container {
+    background-color: #f4f7fa; /* Açık gri, beyaz ve lacivertle uyumlu */
+    color: #1a3b5d; /* Koyu lacivert metin rengi */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Hafif gölge efekti */
+    margin: 20px auto;
+    max-width: 800px; /* Maksimum genişlik */
+    padding: 20px;
+}
+
+.cookie-policy-container h1, .cookie-policy-container h2 {
+    color: #1a3b5d; /* Başlıklar için aynı koyu lacivert */
+}
+
+.cookie-policy-container ul {
+    padding-left: 20px;
+}
+
+.cookie-policy-container li {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.cookie-policy-container a {
+    color: #0047ab; /* Linkler için daha parlak bir lacivert */
+    text-decoration: none; /* Alt çizgi kaldır */
+}
+
+.cookie-policy-container a:hover {
+    text-decoration: underline; /* Fare ile üzerine gelindiğinde altını çiz */
+}
+
+.cookie-policy-container p {
+    line-height: 1.6;
+    margin-top: 10px;
+    margin-bottom: 20px; /* Paragraflar arası boşluk */
+}
+
+/* Responsive tasarım düzenlemesi */
+@media (max-width: 768px) {
+    .cookie-policy-container {
+        padding: 15px;
+        margin: 10px;
+    }
+}
